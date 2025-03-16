@@ -1,0 +1,260 @@
+﻿namespace matalaGUI4
+{
+    partial class Form
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.LoadLabel = new System.Windows.Forms.Label();
+            this.Startbtn = new System.Windows.Forms.Button();
+            this.AddFileBtn = new System.Windows.Forms.Button();
+            this.SearchTypeBtn = new System.Windows.Forms.Button();
+            this.PrintBtn = new System.Windows.Forms.Button();
+            this.RemoveBtn = new System.Windows.Forms.Button();
+            this.CheckBigBtn = new System.Windows.Forms.Button();
+            this.FileNameLabel = new System.Windows.Forms.Label();
+            this.FnameBox = new System.Windows.Forms.TextBox();
+            this.FdataBox = new System.Windows.Forms.TextBox();
+            this.DataLabel = new System.Windows.Forms.Label();
+            this.TypeLabel = new System.Windows.Forms.Label();
+            this.TypeComo = new System.Windows.Forms.ComboBox();
+            this.AddBtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // LoadLabel
+            // 
+            this.LoadLabel.AutoSize = true;
+            this.LoadLabel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.LoadLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LoadLabel.Location = new System.Drawing.Point(245, 179);
+            this.LoadLabel.Name = "LoadLabel";
+            this.LoadLabel.Size = new System.Drawing.Size(267, 22);
+            this.LoadLabel.TabIndex = 0;
+            this.LoadLabel.Text = "There are no Files in the system";
+            this.LoadLabel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LoadLabel.Visible = false;
+            this.LoadLabel.Click += new System.EventHandler(this.LoadLabel_Click);
+            // 
+            // Startbtn
+            // 
+            this.Startbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Startbtn.Location = new System.Drawing.Point(331, 214);
+            this.Startbtn.Name = "Startbtn";
+            this.Startbtn.Size = new System.Drawing.Size(98, 28);
+            this.Startbtn.TabIndex = 1;
+            this.Startbtn.Text = "Start";
+            this.Startbtn.UseVisualStyleBackColor = true;
+            this.Startbtn.Visible = false;
+            this.Startbtn.Click += new System.EventHandler(this.AddFile_Click);
+            // 
+            // AddFileBtn
+            // 
+            this.AddFileBtn.BackColor = System.Drawing.Color.LightGray;
+            this.AddFileBtn.Font = new System.Drawing.Font("Narkisim", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddFileBtn.Location = new System.Drawing.Point(24, 31);
+            this.AddFileBtn.Name = "AddFileBtn";
+            this.AddFileBtn.Size = new System.Drawing.Size(187, 60);
+            this.AddFileBtn.TabIndex = 2;
+            this.AddFileBtn.Text = "Add File";
+            this.AddFileBtn.UseVisualStyleBackColor = false;
+            this.AddFileBtn.Visible = false;
+            this.AddFileBtn.Click += new System.EventHandler(this.AddFileBtn_Click);
+            // 
+            // SearchTypeBtn
+            // 
+            this.SearchTypeBtn.BackColor = System.Drawing.Color.LightGray;
+            this.SearchTypeBtn.Font = new System.Drawing.Font("Narkisim", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.SearchTypeBtn.Location = new System.Drawing.Point(582, 31);
+            this.SearchTypeBtn.Name = "SearchTypeBtn";
+            this.SearchTypeBtn.Size = new System.Drawing.Size(187, 60);
+            this.SearchTypeBtn.TabIndex = 4;
+            this.SearchTypeBtn.Text = "Search File By Type";
+            this.SearchTypeBtn.UseVisualStyleBackColor = false;
+            this.SearchTypeBtn.Visible = false;
+            this.SearchTypeBtn.Click += new System.EventHandler(this.SearchTypeBtn_Click);
+            // 
+            // PrintBtn
+            // 
+            this.PrintBtn.BackColor = System.Drawing.Color.LightGray;
+            this.PrintBtn.Font = new System.Drawing.Font("Narkisim", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PrintBtn.Location = new System.Drawing.Point(164, 106);
+            this.PrintBtn.Name = "PrintBtn";
+            this.PrintBtn.Size = new System.Drawing.Size(187, 60);
+            this.PrintBtn.TabIndex = 5;
+            this.PrintBtn.Text = "Print All Files";
+            this.PrintBtn.UseVisualStyleBackColor = false;
+            this.PrintBtn.Visible = false;
+            this.PrintBtn.Click += new System.EventHandler(this.PrintBtn_Click);
+            // 
+            // RemoveBtn
+            // 
+            this.RemoveBtn.BackColor = System.Drawing.Color.LightGray;
+            this.RemoveBtn.Font = new System.Drawing.Font("Narkisim", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemoveBtn.Location = new System.Drawing.Point(445, 106);
+            this.RemoveBtn.Name = "RemoveBtn";
+            this.RemoveBtn.Size = new System.Drawing.Size(187, 60);
+            this.RemoveBtn.TabIndex = 6;
+            this.RemoveBtn.Text = "Remove File";
+            this.RemoveBtn.UseVisualStyleBackColor = false;
+            this.RemoveBtn.Visible = false;
+            // 
+            // CheckBigBtn
+            // 
+            this.CheckBigBtn.BackColor = System.Drawing.Color.LightGray;
+            this.CheckBigBtn.Font = new System.Drawing.Font("Narkisim", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CheckBigBtn.Location = new System.Drawing.Point(305, 31);
+            this.CheckBigBtn.Name = "CheckBigBtn";
+            this.CheckBigBtn.Size = new System.Drawing.Size(187, 60);
+            this.CheckBigBtn.TabIndex = 7;
+            this.CheckBigBtn.Text = "Check Big File";
+            this.CheckBigBtn.UseVisualStyleBackColor = false;
+            this.CheckBigBtn.Visible = false;
+            this.CheckBigBtn.Click += new System.EventHandler(this.CheckBigBtn_Click);
+            // 
+            // FileNameLabel
+            // 
+            this.FileNameLabel.AutoSize = true;
+            this.FileNameLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FileNameLabel.Location = new System.Drawing.Point(329, 181);
+            this.FileNameLabel.Name = "FileNameLabel";
+            this.FileNameLabel.Size = new System.Drawing.Size(100, 20);
+            this.FileNameLabel.TabIndex = 8;
+            this.FileNameLabel.Text = "File Name:";
+            this.FileNameLabel.Visible = false;
+            // 
+            // FnameBox
+            // 
+            this.FnameBox.Location = new System.Drawing.Point(329, 212);
+            this.FnameBox.Name = "FnameBox";
+            this.FnameBox.Size = new System.Drawing.Size(144, 22);
+            this.FnameBox.TabIndex = 9;
+            this.FnameBox.Visible = false;
+            // 
+            // FdataBox
+            // 
+            this.FdataBox.Location = new System.Drawing.Point(325, 281);
+            this.FdataBox.Name = "FdataBox";
+            this.FdataBox.Size = new System.Drawing.Size(144, 22);
+            this.FdataBox.TabIndex = 11;
+            this.FdataBox.Visible = false;
+            // 
+            // DataLabel
+            // 
+            this.DataLabel.AutoSize = true;
+            this.DataLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DataLabel.Location = new System.Drawing.Point(325, 250);
+            this.DataLabel.Name = "DataLabel";
+            this.DataLabel.Size = new System.Drawing.Size(92, 20);
+            this.DataLabel.TabIndex = 10;
+            this.DataLabel.Text = "File Data:";
+            this.DataLabel.Visible = false;
+            // 
+            // TypeLabel
+            // 
+            this.TypeLabel.AutoSize = true;
+            this.TypeLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.TypeLabel.Location = new System.Drawing.Point(321, 319);
+            this.TypeLabel.Name = "TypeLabel";
+            this.TypeLabel.Size = new System.Drawing.Size(92, 20);
+            this.TypeLabel.TabIndex = 12;
+            this.TypeLabel.Text = "File Type:";
+            this.TypeLabel.Visible = false;
+            // 
+            // TypeComo
+            // 
+            this.TypeComo.FormattingEnabled = true;
+            this.TypeComo.Items.AddRange(new object[] {
+            "TXT",
+            "DOC",
+            "DOCX",
+            "PDF",
+            "PPTX"});
+            this.TypeComo.Location = new System.Drawing.Point(325, 349);
+            this.TypeComo.Name = "TypeComo";
+            this.TypeComo.Size = new System.Drawing.Size(143, 24);
+            this.TypeComo.TabIndex = 13;
+            this.TypeComo.Visible = false;
+            // 
+            // AddBtn
+            // 
+            this.AddBtn.BackColor = System.Drawing.Color.Khaki;
+            this.AddBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddBtn.Location = new System.Drawing.Point(336, 392);
+            this.AddBtn.Name = "AddBtn";
+            this.AddBtn.Size = new System.Drawing.Size(122, 27);
+            this.AddBtn.TabIndex = 14;
+            this.AddBtn.Text = "Add File";
+            this.AddBtn.UseVisualStyleBackColor = false;
+            this.AddBtn.Visible = false;
+            this.AddBtn.Click += new System.EventHandler(this.AddBtn_Click);
+            // 
+            // Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.AddBtn);
+            this.Controls.Add(this.TypeComo);
+            this.Controls.Add(this.TypeLabel);
+            this.Controls.Add(this.FdataBox);
+            this.Controls.Add(this.DataLabel);
+            this.Controls.Add(this.FnameBox);
+            this.Controls.Add(this.FileNameLabel);
+            this.Controls.Add(this.CheckBigBtn);
+            this.Controls.Add(this.RemoveBtn);
+            this.Controls.Add(this.PrintBtn);
+            this.Controls.Add(this.SearchTypeBtn);
+            this.Controls.Add(this.AddFileBtn);
+            this.Controls.Add(this.Startbtn);
+            this.Controls.Add(this.LoadLabel);
+            this.Name = "Form";
+            this.Text = "Files";
+            this.Load += new System.EventHandler(this.Form1_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Label LoadLabel;
+        private System.Windows.Forms.Button Startbtn;
+        private System.Windows.Forms.Button AddFileBtn;
+        private System.Windows.Forms.Button SearchTypeBtn;
+        private System.Windows.Forms.Button PrintBtn;
+        private System.Windows.Forms.Button RemoveBtn;
+        private System.Windows.Forms.Button CheckBigBtn;
+        private System.Windows.Forms.Label FileNameLabel;
+        private System.Windows.Forms.TextBox FnameBox;
+        private System.Windows.Forms.TextBox FdataBox;
+        private System.Windows.Forms.Label DataLabel;
+        private System.Windows.Forms.Label TypeLabel;
+        private System.Windows.Forms.ComboBox TypeComo;
+        private System.Windows.Forms.Button AddBtn;
+    }
+}
+
